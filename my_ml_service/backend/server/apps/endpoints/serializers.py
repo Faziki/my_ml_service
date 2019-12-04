@@ -1,10 +1,10 @@
 # backend/server/apps/endpoints/serializers.py file
 from rest_framework import serializers
+
 from .models import Endpoint
 from .models import MLAlgorithm
 from .models import MLAlgorithmStatus
 from .models import MLRequest
-
 
 class EndpointSerializer(serializers.ModelSerializer):
     class Meta:
